@@ -22,7 +22,7 @@ body{
 
 body{
     font-family: 'IBM Plex Mono', monospace;
-    background:var(--main-bg-color);
+    background:red;
     color:var(--main-text-color);
     display: grid;
     place-items:center;
