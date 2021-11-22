@@ -1,0 +1,26 @@
+{
+  "name": "jesusSevilla",
+  "version": "1.0.0",
+  "description": "Repository for my portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:watch": "postcss src/style.css --dir public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jsevillap/portfolioJsevilla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jsevillap/portfolioJsevilla/issues"
+  },
+  "homepage": "https://github.com/Jsevillap/portfolioJsevilla#readme",
+  "devDependencies": {
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2"
+  }
+}

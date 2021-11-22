@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+}
+
+:root{
+    --main-bg-color:#171717;
+    --variant-bg-color:#1F1F1F;
+    --main-accent-color:#FF364A;
+    --main-text-color:#fff;
+}
+
+html,
+body{
+    height:100%;
+}
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    background:var(--main-bg-color);
+    color:var(--main-text-color);
+    display: grid;
+    place-items:center;
+}
+
+
+h1{
+    font-size:4rem;
+}
